@@ -1,0 +1,40 @@
+.todoList {
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.todoAdd {
+    background-color: purple;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.todoAdd input {
+    width: 150px;
+    border: none;
+    height: 50px;
+}
+
+.todoAdd input[type=text] {
+    border: black solid 1px;
+}
+
+.todoAdd input[type=button] {
+    background-color: green;
+    color: black;
+}
+
+.error {
+    color: red;
+}
+
+.complete {
+    color: green;
+}
+
+.taskComplete {
+    background-color: green;
+}
